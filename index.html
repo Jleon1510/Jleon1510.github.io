@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>El Mundo del Sonido</title>
+</head>
+<body>
+    <header>
+        <h1>El Mundo del Sonido</h1>
+        <nav>
+            <button class="tab-button active" onclick="showCategory('cuerdas')">Cuerdas</button>
+            <button class="tab-button" onclick="showCategory('percusiones')">Percusiones</button>
+            <button class="tab-button" onclick="showCategory('teclados')">Teclados</button>
+            <button class="tab-button" onclick="showCategory('viento')">Viento</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cuerdas" class="product-grid active">
+            <h2>Cuerdas</h2>
+            <div class="product">
+                <img src="images/G1.jpg" alt="Fender FA-25 Dreadnought">
+                <h3>Fender FA-25 Dreadnought</h3>
+                <p>Precio: RD$5,800.00</p>
+            </div>
+            <div class="product">
+                <img src="images/G2.jpg" alt="Gretsch G2622T-P90 Streamliner Center Block">
+                <h3>Gretsch G2622T-P90 Streamliner Center Block</h3>
+                <p>Precio: RD$32,947.00</p>
+            </div>
+            <div class="product">
+                <img src="images/G3.jpg" alt="Squier Affinity Series Telecaster - Rojo Carmesí Transparente">
+                <h3>Squier Affinity Series Telecaster - Rojo Carmesí Transparente</h3>
+                <p>Precio: RD$10,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/G4.jpg" alt="Fender Player Telecaster - Guitarra eléctrica, Negro">
+                <h3>Fender Player Telecaster - Guitarra eléctrica, Negro</h3>
+                <p>Precio: RD$48,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/B1.jpg" alt="Squier Affinity Series Active Jazz Bass - Negro">
+                <h3>Squier Affinity Series Active Jazz Bass - Negro</h3>
+                <p>Precio: RD$21,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/B2.jpg" alt="Ibanez 4 cuerdas">
+                <h3>Ibanez 4 cuerdas</h3>
+                <p>Precio: RD$15,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/B3.jpg" alt="Fender Jugador Jazz Bass, Naranja Capri">
+                <h3>Fender Jugador Jazz Bass, Naranja Capri</h3>
+                <p>Precio: RD$48,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/B4.jpg" alt="Fender Bajo eléctrico Squier vibración clásica S Bass 1">
+                <h3>Fender Bajo eléctrico Squier vibración clásica S Bass 1</h3>
+                <p>Precio: RD$30,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/V1.jpg" alt="Violín">
+                <h3>Violín</h3>
+                <p>Precio: RD$20,000.00</p>
+            </div>
+        </section>
+
+        <section id="percusiones" class="product-grid">
+            <h2>Percusiones</h2>
+            <div class="product">
+                <img src="images/Drm1.jpg" alt="Pacific Drums & Percussion Drum Set PDP">
+                <h3>Pacific Drums & Percussion Drum Set PDP</h3>
+                <p>Precio: RD$71,940.00</p>
+            </div>
+            <div class="product">
+                <img src="images/Drm2.jpg" alt="Pacific Drums & Percussion PDP">
+                <h3>Pacific Drums & Percussion PDP</h3>
+                <p>Precio: RD$50,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/Drm3.jpg" alt="Batería Yamaha Stage de 5 piezas">
+                <h3>Batería Yamaha Stage de 5 piezas</h3>
+                <p>Precio: RD$67,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/Tamb1.jpg" alt="Tycoon Percussion TTA">
+                <h3>Tycoon Percussion TTA</h3>
+                <p>Precio: RD$17,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/Tamb2.jpg" alt="Latin Percussion LP271-WD">
+                <h3>Latin Percussion LP271-WD</h3>
+                <p>Precio: RD$21,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/Cajon.jpg" alt="Cajón para música, compacto, de madera de abedul">
+                <h3>Cajón para música, compacto, de madera de abedul</h3>
+                <p>Precio: RD$4,800.00</p>
+            </div>
+            <div class="product">
+                <img src="images/Guiro.jpg" alt="Soulmate Guiro Instrumento Guiro de acero inoxidable de 8 pulgadas">
+                <h3>Soulmate Guiro Instrumento Guiro de acero inoxidable de 8 pulgadas</h3>
+                <p>Precio: RD$1,500.00</p>
+            </div>
+        </section>
+
+        <section id="teclados" class="product-grid">
+            <h2>Teclados</h2>
+            <div class="product">
+                <img src="images/P1.jpg" alt="Yamaha CP88">
+                <h3>Yamaha CP88</h3>
+                <p>Precio: RD$120,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/P2.jpg" alt="Nord Stage 4 88 teclas">
+                <h3>Nord Stage 4 88 teclas</h3>
+                <p>Precio: RD$240,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/P3.jpg" alt="Yamaha P71 88 teclas">
+                <h3>Yamaha P71 88 teclas</h3>
+                <p>Precio: RD$30,000.00</p>
+            </div>
+        </section>
+
+        <section id="viento" class="product-grid">
+            <h2>Viento</h2>
+            <div class="product">
+                <img src="images/S1.jpg" alt="E Flat Saxofón alto">
+                <h3>E Flat Saxofón alto</h3>
+                <p>Precio: RD$10,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/S2.jpg" alt="YAMAHA YAS-280 Saxofones">
+                <h3>YAMAHA YAS-280 Saxofones</h3>
+                <p>Precio: RD$60,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/Tromp1.jpg" alt="Trompeta Jean Paul USA TR-330">
+                <h3>Trompeta Jean Paul USA TR-330</h3>
+                <p>Precio: RD$15,000.00</p>
+            </div>
+            <div class="product">
+                <img src="images/Tromp2.jpg" alt="Glory Bb Trompeta">
+                <h3>Glory Bb Trompeta</h3>
+                <p>Precio: RD$7,799.40</p>
+            </div>
+        </section>
+    </main>
+
+    <section class="testimonial-section">
+        <h2>Testimonios</h2>
+        <div class="testimonial">
+            <p>“¡El mejor lugar para comprar instrumentos musicales! La calidad es excepcional.”</p>
+            <cite>- Juan Pérez</cite>
+        </div>
+        <div class="testimonial">
+            <p>“Gran servicio al cliente y precios competitivos. Recomiendo ampliamente!”</p>
+            <cite>- Ana Rodríguez</cite>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 El Mundo del Sonido. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function showCategory(category) {
+            const categories = document.querySelectorAll('.product-grid');
+            categories.forEach(cat => {
+                cat.classList.remove('active');
+                if (cat.id === category) {
+                    cat.classList.add('active');
+                }
+            });
+
+            const buttons = document.querySelectorAll('.tab-button');
+            buttons.forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.textContent.toLowerCase() === category) {
+                    btn.classList.add('active');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
